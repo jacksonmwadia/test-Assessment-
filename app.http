@@ -1,0 +1,43 @@
+POST http://localhost:4100/users
+Content-Type: application/json
+
+{
+  "fname": "baniel",
+  "lname": "ewbru",
+  "CohortNo": "2", 
+  "email": "gamfhddbi@thejitu.com",
+  "phoneNumber": "1382-306-78090",
+  "gender": "Male",
+  "password": "dah24ni]el3123"
+}
+
+
+### get all user
+
+GET http://localhost:4100/users
+Content-Type: application/json
+
+
+
+### get 1 user by id
+
+GET http://localhost:4100/users/1
+Content-Type: application/json
+
+### update user
+
+PUT http://localhost:4100/users/update/2421bdb1-cd15-4bd8-86b6-170c4c8dfd81
+Content-Type: application/json
+
+{
+  "fname": "Danii]el",
+  "lname": "Ker",
+  "CohortNo": "182", 
+  "email": "gamuri@thejitu.com",
+  "phoneNumber": "138he]2-306-78090",
+  "gender": "Male",
+  "password": "dahni]el3123"
+}
+
+### delete a user
+DELETE http://localhost:4100/users/delete/4dc65ee2-f7ae-422e-9373-964241733068

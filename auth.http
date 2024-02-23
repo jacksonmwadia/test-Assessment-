@@ -1,0 +1,13 @@
+POST http://localhost:4100/auth/login
+Content-Type: application/json
+
+{
+  "email": "gamurerwesy7jyj7@thejitu.com",
+  "password": "daniel3123"
+}
+
+
+###
+POST http://localhost:4100/auth/checkdetails
+Content-Type: application/json
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNWRkNzFmNDgtZWE0NC00OGMzLWJlYmEtMTNhZDJiMzIwYzM5IiwibmFtZSI6IkRhbmllbCBrIiwiZW1haWwiOiJnYW1lc215MTc3QGdtYWlsLmNvbSIsIm5hdGlvbmFsSWQiOiIxOTA4MjM5IiwicGhvbmVOdW1iZXIiOiIxMzgyLTMwNi03ODA5MCIsImRhdGVPZkJpcnRoIjoiMTk5MC0wMS0wMVQwMDowMDowMC4wMDBaIiwiZ2VuZGVyIjoiTWFsZSIsIm5hdGlvbmFsaXR5IjoiQ291bnRyeSIsIm9jY3VwYXRpb24iOiJEZXZlbG9wZXIiLCJpc1dlbGNvbWUiOmZhbHNlLCJpc0FkbWluIjpmYWxzZSwiaWF0IjoxNzA4NTgyNjI3LCJleHAiOjE3MDg1ODYyMjd9.nPCGr-7zvpySRf21OJ0nXpViC49HMLkNBqzxIT-jaZA
